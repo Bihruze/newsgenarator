@@ -165,7 +165,7 @@ export const generateArticle = async (
 
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-2.0-flash",
       contents: [
         { role: 'user', parts: [{ text: userPrompt }] }
       ],
@@ -195,7 +195,7 @@ export const generateImage = async (prompt: string): Promise<string> => {
 
   try {
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash-image',
+      model: 'gemini-2.0-flash-exp',
       contents: {
         parts: [{ text: prompt }]
       }
