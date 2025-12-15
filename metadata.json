@@ -1,0 +1,5 @@
+{
+  "name": "News Generator ",
+  "description": "A powerful tool to scrape news, generate SEO-optimized crypto articles with Gemini 2.5 Flash, and prepare them for publishing.",
+  "requestFramePermissions": []
+}
